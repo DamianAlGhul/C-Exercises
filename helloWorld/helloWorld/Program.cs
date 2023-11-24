@@ -1,6 +1,6 @@
-﻿var A = 0d;
-var B = 0d;
-var result = 0d;
+﻿double A;
+double B;
+double result;
 
 Console.WriteLine("Calculate the area of a rectangle");
 
