@@ -1,14 +1,15 @@
-﻿double A;
-double B;
-double result;
+﻿var sideA = 0d;
+var sideB = 0d;
+var result = 0d;
 
 Console.WriteLine("Calculate the area of a rectangle");
 
-Console.WriteLine("\nEnter the value of 'A': ");
-A = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("\nEnter the value of the side A: ");
+sideA = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Enter the value of 'B': ");
-B = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("\nEnter the value of the side B: ");
+sideB = Convert.ToDouble(Console.ReadLine());
 
-result = A * B;
-Console.WriteLine("\nSide A has a value of: " + A + "\nSide B has a value of: " + B + "\nThe result is: " + result);
+result = sideA * sideB;
+
+Console.WriteLine("\nSide A: " + sideA + "\nSide B: " + sideB + "\nThe result is: " + result);
