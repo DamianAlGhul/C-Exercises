@@ -1,8 +1,6 @@
 ﻿Console.WriteLine("Hello, we gonna see what logic operators exist: ");
 
-bool value1 = true;
-bool value2 = false;
-bool value3 = true;
+var (value1, value2, value3) = (true, true, false);
 
 Console.WriteLine("\n&&: Is 'y' or 'and'");
 Console.WriteLine("\n||: Is 'o' or 'or'");
@@ -17,3 +15,9 @@ Console.WriteLine(resultOr);
 
 bool resultAndOr = (value1 && value2) || value3;
 Console.WriteLine(resultAndOr);
+
+bool resultNot = !value1;
+Console.WriteLine(resultNot);
+
+bool resultXor = value1 ^ value2 ^ value3;
+Console.WriteLine(resultXor);
