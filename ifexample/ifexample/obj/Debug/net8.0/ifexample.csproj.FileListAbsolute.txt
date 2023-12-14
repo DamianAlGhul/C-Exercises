@@ -1,0 +1,14 @@
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\bin\Debug\net8.0\ifexample.exe
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\bin\Debug\net8.0\ifexample.deps.json
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\bin\Debug\net8.0\ifexample.runtimeconfig.json
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\bin\Debug\net8.0\ifexample.dll
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\bin\Debug\net8.0\ifexample.pdb
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\obj\Debug\net8.0\ifexample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\obj\Debug\net8.0\ifexample.AssemblyInfoInputs.cache
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\obj\Debug\net8.0\ifexample.AssemblyInfo.cs
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\obj\Debug\net8.0\ifexample.csproj.CoreCompileInputs.cache
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\obj\Debug\net8.0\ifexample.dll
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\obj\Debug\net8.0\refint\ifexample.dll
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\obj\Debug\net8.0\ifexample.pdb
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\obj\Debug\net8.0\ifexample.genruntimeconfig.cache
+C:\Users\Damian\EjerciciosC#\ifexample\ifexample\obj\Debug\net8.0\ref\ifexample.dll
