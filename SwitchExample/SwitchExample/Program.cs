@@ -1,11 +1,15 @@
 ﻿int totalPlayer = 0;
 int totalDealer = 0;
 int num = 0;
+string controlACard = "";
 string message = "";
 string SwitchControl = "menu";
+System.Random random = new System.Random();
 
 while (true)
 {
+    totalPlayer = 0;
+    totalDealer = 0;
     switch (SwitchControl)
     {
         case "menu":
@@ -17,22 +21,37 @@ while (true)
         case "21":
             do
             {
-                System.Random random = new System.Random();
+
                 num = random.Next(1, 12);
                 totalPlayer = totalPlayer + num;
                 Console.WriteLine("Take a card player");
                 Console.WriteLine($"Your card is: {num}");
-                Console.WriteLine("Do you want another card?");
+                if (totalPlayer > 21)
+                {
+                    controlACard = "no";
+                }
+                else
+                {
+                    Console.WriteLine("Do you want another card?");
+                    controlACard = Console.ReadLine();
+                }
+                
+            } while (controlACard == "si" || controlACard == "Si" || controlACard == "Yes" || controlACard == "yes");
 
-            } while (Console.ReadLine() == "si" || Console.ReadLine() == "Si" || Console.ReadLine() == "Yes" || Console.ReadLine() == "yes");
+            totalDealer = random.Next(14, 23);
+            Console.WriteLine("The dealer has: " + totalDealer);
 
             if (totalPlayer > totalDealer && totalPlayer < 22)
             {
                 message = "You win, congratulations!";
             }
-            else if (totalPlayer <= totalDealer || totalPlayer > 21)
+            else if (totalPlayer <= totalDealer)
             {
                 message = "You lose, try again";
+            }
+            else if(totalPlayer > 21)
+            {
+                message = "You lose, you pass 21 with: " + totalPlayer;
             }
             else
             {
