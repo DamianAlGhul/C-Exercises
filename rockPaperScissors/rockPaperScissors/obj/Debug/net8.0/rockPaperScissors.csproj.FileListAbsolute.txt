@@ -1,0 +1,14 @@
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\bin\Debug\net8.0\rockPaperScissors.exe
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\bin\Debug\net8.0\rockPaperScissors.deps.json
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\bin\Debug\net8.0\rockPaperScissors.runtimeconfig.json
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\bin\Debug\net8.0\rockPaperScissors.dll
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\bin\Debug\net8.0\rockPaperScissors.pdb
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\obj\Debug\net8.0\rockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\obj\Debug\net8.0\rockPaperScissors.AssemblyInfoInputs.cache
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\obj\Debug\net8.0\rockPaperScissors.AssemblyInfo.cs
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\obj\Debug\net8.0\rockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\obj\Debug\net8.0\rockPaperScissors.dll
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\obj\Debug\net8.0\refint\rockPaperScissors.dll
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\obj\Debug\net8.0\rockPaperScissors.pdb
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\obj\Debug\net8.0\rockPaperScissors.genruntimeconfig.cache
+C:\Users\Damian\EjerciciosC#\rockPaperScissors\rockPaperScissors\obj\Debug\net8.0\ref\rockPaperScissors.dll
