@@ -1,7 +1,10 @@
 ﻿int totalPlayer = 0;
 int totalDealer = 0;
 int coins = 0;
+int bet = 0;
+int botbet = 0;
 int i = 0;
+int s = 0;
 int num = 0;
 string controlACard = "";
 string message = "";
@@ -11,10 +14,10 @@ System.Random random = new System.Random();
 while (true)
 {
     Console.WriteLine("Welcome to E L  C A S I N O");
-    Console.WriteLine("How coins do you want? \n Remember, you need one to play");
+    Console.WriteLine("How many coins do you want? \n Remember, you need one to play");
     coins = Convert.ToInt32(Console.ReadLine());
 
-    for (i = 0; i < coins; i++)
+    for (i = 0; i <= coins; i++)
     {
 
         totalPlayer = 0;
@@ -22,8 +25,19 @@ while (true)
         switch (SwitchControl)
         {
             case "menu":
+                coins--;
+                i--;
+                Console.WriteLine($"You have {coins} coins");
+                if (coins > 1)
+                {
+                    Console.WriteLine("How many coins do you want to bet?");
+                    bet = Convert.ToInt32(Console.ReadLine());
+                    botbet = bet;
+                    Console.WriteLine($"The bet is {bet}");
+                }
                 Console.WriteLine("Write '21' to start the game Blackjack");
                 SwitchControl = Console.ReadLine();
+                coins++;
                 break;
 
             case "21":
@@ -55,14 +69,17 @@ while (true)
                 if (totalPlayer > totalDealer && totalPlayer < 22)
                 {
                     message = "You win, congratulations!";
+                    coins = coins + botbet;
                 }
                 else if (totalPlayer <= totalDealer)
                 {
                     message = "You lose, try again";
+                    coins = coins - bet;
                 }
                 else if (totalPlayer > 21)
                 {
                     message = "You lose, you pass 21 with: " + totalPlayer;
+                    coins = coins - bet;
                 }
                 else
                 {
@@ -77,5 +94,11 @@ while (true)
                 Console.WriteLine("The value is not valid");
                 break;
         }
+    }
+    Console.WriteLine("Press a key to clean and start a new game");
+    Console.ReadKey();
+    for (s = 0; s < 50; s++)
+    {
+        Console.WriteLine();
     }
 }
